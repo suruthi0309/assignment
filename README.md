@@ -1,2 +1,0 @@
-# assignment
-internship purpose
