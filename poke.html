@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon Info Fetcher</title>
+    <link rel="stylesheet" href="poke.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pokémon Info Finder</h1>
+        <input type="text" id="pokemonName" placeholder="Enter the Pokémon name">
+        <button onclick="fetchData()">Fetch Pokémon</button>
+
+        <div id="pokemonInfo" style="display: none;">
+            <h2 id="name"></h2>
+            <img src="" alt="Pokemon Sprite" id="pokemonSprite">
+            <p><strong>Type(s):</strong> <span id="types"></span></p>
+            <p><strong>Abilities:</strong> <span id="abilities"></span></p>
+            <p><strong>Base Experience:</strong> <span id="baseExp"></span></p>
+        </div>
+    </div>
+
+    <script src="poke.js"></script>
+</body>
+</html>
